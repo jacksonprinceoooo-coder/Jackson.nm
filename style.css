@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #0077cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#darkModeToggle {
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: none;
+  background: white;
+  color: #0077cc;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#darkModeToggle:hover {
+  background: #ddd;
+}
+
+section {
+  padding: 40px;
+  background: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.resume-header {
+  background: #eef6ff;
+  padding: 15px;
+  border-left: 4px solid #0077cc;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.resume-buttons {
+  margin: 15px 0;
+}
+
+.btn {
+  display: inline-block;
+  margin: 8px 5px;
+  padding: 10px 18px;
+  background: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+
+.resume-details h3 {
+  margin-top: 20px;
+  color: #0077cc;
+}
+
+/* Dark Mode */
+body.dark {
+  background: #1e1e1e;
+  color: #f4f4f4;
+}
+
+body.dark header {
+  background: #111;
+}
+
+body.dark nav ul li a {
+  color: #f4f4f4;
+}
+
+body.dark section {
+  background: #2c2c2c;
+}
+
+body.dark .resume-header {
+  background: #333;
+  border-left: 4px solid #66aaff;
+}
+
+body.dark .btn {
+  background: #66aaff;
+}
+
+body.dark .btn:hover {
+  background: #4499dd;
+}
+
+body.dark footer {
+  background: #111;
+  color: #ccc;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
